@@ -1,5 +1,5 @@
 import SideBar from "./SideBar";
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 
 const Layout = ({ children }) => {
 
@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <div className="wrapper">
       <SideBar />
       <div className="content">
-        <Navbar />
+        <NavBar />
         <div className="main-content">{ children }</div>
       </div>
     </div>
